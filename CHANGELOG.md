@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+
+- `Falcon512AccountComponent`, `Falcon512SignatureVerifier`, `Falcon512ShakeVerifier`, and
+  `Falcon512ShakeDirectVerifier` for Falcon-512 account validation (#1730)
+- `Falcon512ShakeAccountUpgradeable` and `Falcon512ShakeDirectAccountUpgradeable` presets with
+  SRC9 and class upgrades, and `Falcon512AccountUpgradeableABI` (#1730)
+- `IFeltArrayDeployable`, `IFeltArrayPublicKey`, `IFeltArrayPublicKeyCamel`, and
+  `FeltArrayAccountABI` interfaces (#1730)
+- `openzeppelin_corelib_imports` compatibility package for internal Cairo APIs (#1730)
+
 ## 4.0.1 (2026-08-26)
 
 ### Fixed
